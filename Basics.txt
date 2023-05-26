@@ -6,8 +6,8 @@ Google cloud storage :
  Bucket names should be unique all over the globe and the buckets can be created based on below regions
  
 * Region - Default , low cost solution and preferred for work loads that oprates out of a single region
-* Dual Region
-* Multi Region
+* Dual Region - data will be stored in 2 regions and this provides higher availability
+* Multi Region - data will be stored in multiple regions and provides the lowest possible latency.
 
 Below are the storage classes :
 
