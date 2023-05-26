@@ -1,1 +1,18 @@
-Hi
+Google cloud storage :
+
+
+ Object based storage, can store any type of data - text files , images , videos anything can be stored
+ Offers bucket - buckets are logical containers to store the files
+ Bucket names should be unique all over the globe and the buckets can be created based on below regions
+ 
+* Region - Default , low cost solution and preferred for work loads that oprates out of a single region
+* Dual Region
+* Multi Region
+
+Below are the storage classes :
+
+Standard - Suitable for very frequently accessed data. have to pay only storage fee ($0.02 per GB) and no retrieval fee involved
+Near line - Suitable for less frequently accessed data and the data has to be stored for minimum of 30 days (storage fee $0.01 per GB per month & Retrieval fee $0.01 GB per month)
+Cold line - Suitable for rarely accessed data and the data has to be stored for a minimum of 90 days (storage fee $0.004 per GB per month & Retrieval fee $0.02 per GB per month)
+Archival - Suitable for very rarely accessed data and the Data has to be stored for minumum of 365 days (Storage fee $0.0012 per GB per month and the costliest retrieval fee of $0.05 per GB per month)
+
