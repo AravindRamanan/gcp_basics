@@ -16,3 +16,46 @@ Near line - Suitable for less frequently accessed data and the data has to be st
 Cold line - Suitable for rarely accessed data and the data has to be stored for a minimum of 90 days (storage fee $0.004 per GB per month & Retrieval fee $0.02 per GB per month)
 Archival - Suitable for very rarely accessed data and the Data has to be stored for minumum of 365 days (Storage fee $0.0012 per GB per month and the costliest retrieval fee of $0.05 per GB per month)
 
+***********************************************************************************************************************
+
+Cloud SQL : Managed SQL database service (Structured data)
+can create configurable versions of
+* MYSQL
+* PostgreSQL
+* SQLServer
+
+***********************************************************************************************************************
+
+Google Cloud Firestore : Google's fully managed noSQL document store. data in firestore is stored as JSON. 
+No instances to provision (or) configure
+Horizontal autoscaling and consistency with support for ACID transactions
+Indexes are created for improving performance
+Document needs to have a unique identifier or we can let firestore to create one for us
+
+***********************************************************************************************************************
+Google Cloud Spanner : Managed SQL Compliant DB which is horizontally scalable and highly available
+
+Adheres to all 3 principles of CAP Theorem
+
+Consistency
+Availability
+Partition Tolerance
+
+
+To use cloud spanner , you need to create instances. A instance configuration mainly defines below things
+
+Regional or Multi Regional
+Initial number of nodes
+
+
+Cloud Spanner is a ANSI Comlpliant SQL database. has data in the form o ros , columns , values and primary keys
+Offers Parent-Child relationships
+
+***********************************************************************************************************************
+
+Cloud Memory Store :
+
+
+
+
+
